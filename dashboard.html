@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ /* .table{
+    width: 850px;
+    padding: 20px;
+}  */
+.Latest{
+background-color: wheat;
+height: 40px;
+}
+#fa{
+    font-size: 60px;
+    margin-top: 50px;
+     background-color: tomato;
+     margin-left:900px ;
+    padding: 10px;
+}
+#fb1{
+    font-size: 60px;
+    margin-top: 60px;
+    background-color: tomato;
+    padding: 10px;
+    margin-left:900px ;
+}
+header{
+    background-color: orangered;
+    color: white;
+    height: 50px;
+}
+h3{
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.col-sm-3{
+    background-color: tomato;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+}
+.row{
+    padding: 10px;
+}
+ .container{
+    border-radius: 10px;
+}
+#sandeep{
+    margin-top:-260px;
+    width: 80%;
+}
+.my-nav .nav-link{
+    color: white;
+}
+#id{
+	background-color:black;
+	 padding: 30px; 
+	text-align: center;
+	color: white;
+	/* margin: 10px; */
+	word-spacing: 10px;
+	margin-top: 10px;
+  width: 100%;
+
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar my-nav navbar-expand-lg navbar-light" >
+        <a class="navbar-brand" href="#">UiBrains Technologies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a  href="website.html" class="nav-link">
+                <i class="fa fa-home"></i>Home
+               </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="project.html" class="nav-link">
+                <i class="fa fa-id-card"></i> About Us</a>
+          </li>
+
+            <li class="nav-item px-2">
+              <a href="jayam.html" class="nav-link">
+                <i class="fa fa-cog"></i>Courses</a>
+            </li>
+            <li class="nav-item px-2 ">
+              <a href="dashboard.html" class="nav-link">
+                <i class="fa fa-user-o"></i>
+                Service
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="Contact.html" class="nav-link">
+                <i class="fa fa-envelope"></i> Contact</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+<header>
+        <i class="fa fa-bar-chart" style="font-size:30px; padding: 10px;">
+         <h3> Dashboard</h3></i>
+      </header> 
+      <div class="container">
+<div class="row">
+<div class="col-sm-3">
+    <!-- <i class="fa fa-check-square"> -->
+<h5>ADD POST</h5></i>
+</div>
+    <div class="col-sm-3">
+    <h5>ADD CATEGORY</h5>
+    </div>
+        <div class="col-sm-3">
+        <h5>ADD USER</h5>
+        </div>
+    </div>
+      <i class="fa fa-navicon" id="fa">Post</i><br>
+      <i class="fa fa-sitemap" id="fb1">Post</i>
+      <div class="container">
+          <div class="card"id="sandeep">
+              <div class="card-body">
+                  <h4 class="Latest">Latest Post</h4>
+    <table class="table">
+        <thead class="table-dark">
+<tr>
+<th>#</th>
+<th>Title</th>
+<th>Category</th>
+<th>Date posted</th>
+<th>Button</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Post One</td>
+        <td>Web Development</td>
+        <td>18th,Feb,2018</td>
+       <td><button type="button" class="btn btn-outline-primary">Primary</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Post One</td>
+        <td>Web Development</td>
+        <td>18th,Feb,2018</td>
+        <td><button type="button" class="btn btn-outline-primary">Primary</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Post One</td>
+        <td>Web Development</td>
+        <td>18th,Feb,2018</td>
+       <td> <button type="button" class="btn btn-outline-primary">Primary</button>
+       </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Post One</td>
+        <td>Web Development</td>
+        <td>18th,Feb,2018</td>
+      <td>  <button type="button" class="btn btn-outline-primary">Primary</button>
+      </td>
+    </tr>
+
+</tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    </div>
+    <footer id="id">
+      <b>MOVIERULZ APP MIRROR LIST DMCA CONTACT US<br>
+        MOVIERULZ.COM - 2011-2018</b><br>
+        <i class="fa fa-twitter" aria-hidden="true" style="font-size: 20px;"></i> Twitter
+        <i class="fa fa-twitch" aria-hidden="true" style="font-size: 20px;"></i>socile Media
+      
+          </footer>
+      
+</body>
+</html>
