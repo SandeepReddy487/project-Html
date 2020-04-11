@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+.my-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #D8D8D8;
+}
+.container-item{
+    height: 300px;
+}
+.myFont{
+    font-size: 50px;
+    color: white;
+}
+.blue{
+    background-color: rgb(10, 30, 46);
+}
+.red{
+    background-color:rgb(26, 17, 18);
+}
+.green{
+    background-color: #a7e7a4;
+}
+.purple{
+    background-color: rgb(10, 10, 39);
+}
+@media screen and (min-width:768px){
+    .blue{
+        width: 50%;
+    }
+    .red{
+        width: 50%;
+    }
+    .green{
+        width: 50%;
+    }
+    .purple{
+        width: 50%;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .blue{
+        width: 50%;
+    }
+    .red{
+        width: 50%;
+    }
+    .green{
+        width: 50%;
+    }
+    .purple{
+        width: 50%;
+    }
+}
+@media screen and (max-width:480px){
+    .blue{
+        width: 100%;
+    }
+    .red{
+        width: 100%;
+    }
+    .green{
+        width: 100%;
+    }
+    .purple{
+        width: 100%;
+    }
+}</style>
+    </head>
+<body>
+    <!-- <h3>Flex ROW & Flex ITEMS</h3>
+    <div class="row-h1 d-flex flex-row">
+    <div class="item-h1 p-1 display-4">1</div>
+    <div class="item-h1 p-1 display-4">2</div>
+    <div class="item-h1 p-1 display-4">3</div>
+</div>
+<h3>Flex ROW REVERSE</h3>
+<div class = "row-h1 d-flex flex-row-reverse"> 
+<div class="item-h1 p-1 display-4">1</div>
+<div class="item-h1 p-1 display-4">2</div>
+<div class="item-h1 p-1 display-4">3</div> 
+</div>-->
+<div class="my-container">
+    <div class="container-item blue myFont">Blue Box</div>
+    <div class="container-item red myFont">Red Box</div>
+    <div class="container-item green myFont">Green Box</div>
+    <div class="container-item purple myFont">Purple Box</div>
+</div>
+
+</body>
+</html>
